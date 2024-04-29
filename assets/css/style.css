@@ -1,26 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Kreon:wght@300..700&family=Kumbh+Sans:wght@100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+h1, h2, h3, nav {
+    font-family: "Koulen", sans-serif;
+}
+
+h1 {
+    margin-left: 30px;
+    height: 10px;
+}
+
+p {
+    font-family: "Kumbh Sans", sans-serif;
+}
+
 header {
     background: #D9D9D9;
+}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    display: flex;
+    margin-left: 80%;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 15px;
+    font-size: 160%;
 }
 
 #home {
     background: #5F6758;
     display: flex;
+    height: 80vh;
 }
 
 .image {
     width: 40%;
     margin: 35px;
+    margin-top: 10%;
 
 }
 
 .text {
     text-align: center;
     margin: 45px;
-
+    width: 40%;
+    margin-top: 20%;
 }
