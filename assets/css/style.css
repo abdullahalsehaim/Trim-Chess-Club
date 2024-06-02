@@ -61,7 +61,6 @@ nav li {
 .text {
     text-align: center;
     margin: 45px;
-    margin-top: 12.5%;
     word-wrap: break-word;
     height: 100%;
     display: inline-block;
@@ -78,4 +77,27 @@ nav li {
 #about h2 {
     text-align: center;
     font-size: 200%;
+}
+
+.about-club {
+    width: 50%;
+}
+
+.about li{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.leaderboard {
+    background: #696969;
+}
+
+.leaderboard ul {
+    list-style: none;
+    width: 100%;
+    font-family: "Kumbh Sans", sans-serif;
 }
