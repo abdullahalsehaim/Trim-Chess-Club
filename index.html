@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trim Chess Club</title>
 </head>
 <body>
+    <!--Creating a header element-->
     <header>
         <h1>Trim Chess Club</h1>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul>
-                <li><a href="#about" aria-label="Go to the about section"></a>About</li>
-                <li><a href="#contact" aria-label="Go to the contact section"></a>Contact</li>
-                <li><a href="#join" aria-label="Go to the join section"></a>Join</li>
+                <li><a href="#about" aria-label="Go to the about section">About</a></li>
+                <li><a href="#join" aria-label="Go to the join section">Join</a></li>
+                <li><a href="#contact" aria-label="Go to the contact section">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <!--Creating Home Page section-->
     <section id="home">
         <div class="image">
             <img src="assets/images/home_image.jpg" alt="A person about to move one of their chess pieces.">
@@ -28,6 +33,7 @@
             </p>
         </div>
     </section>
+    <!--Creating section about the club-->
     <section id="about">
         <h2>About</h2>
         <div class="content">
@@ -51,7 +57,7 @@
                     </ul>
                 </div>
             </div>
-            <div>
+            <div class="lists">
                 <div class="leaderboard">
                     <h4>Club Ehlo Rankings</h4>
                     <ul >
@@ -85,6 +91,7 @@
             </div>
         </div>
     </section>
+    <!--Creating a form for users to join the club-->
     <section id="join">
         <h2>Join</h2>
         <form action="" method="POST">
@@ -118,6 +125,7 @@
             </div>
         </form>
     </section>
+    <!--Creating a contact information section-->
     <section id="contact">
         <h2>Contact</h2>
         <h3>Please feel free to reach out using the contacts method below</h3>

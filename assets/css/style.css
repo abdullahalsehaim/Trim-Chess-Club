@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Kreon:wght@300..700&family=Kumbh+Sans:wght@100..900&display=swap');
 
+/*Creating styles for basic elements*/
+
 * {
     padding: 0;
     margin: 0;
@@ -15,10 +17,15 @@ h1 {
     height: 10px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 300%;
+}
+
 p {
     font-family: "Kumbh Sans", sans-serif;
 }
-
+/*Styles for the header and navigation portion of the page*/
 header {
     background: #D9D9D9;
 }
@@ -32,12 +39,33 @@ nav ul {
     display: flex;
     margin-left: 65%;
     list-style: none;
+    text-decoration: none;
 }
 
 nav li {
     padding-left: 15px;
     font-size: 160%;
+    
 }
+
+/* Nav Toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+a:link, a:visited, a:hover, a:active { 
+    text-decoration: none; 
+}
+
+/*Styles for the home section*/
 
 #home {
     background: #5F6758;
@@ -67,14 +95,11 @@ nav li {
     vertical-align: middle;
 }
 
+/*Styles for the about section*/
 #about {
     background: #EADBC4;
 }
 
-h2 {
-    text-align: center;
-    font-size: 300%;
-}
 
 .about-club {
     width: 50%;
@@ -106,6 +131,10 @@ h2 {
     text-align: center;
 }
 
+.lists {
+    margin-right: 2.5%;
+}
+
 .leaderboard ul, .accolades ul, .schedule ul {
     list-style: none;
     width: 100%;
@@ -129,6 +158,8 @@ h2 {
     text-align: center;
     margin: 10%;
 }
+
+/* Styles for the join section*/
 
 #join {
     background: #586267;
@@ -158,22 +189,36 @@ label {
     margin: 5px 0 20px 20%;
 }
 
+/*Styles for the contact section*/
+
 #contact {
     background: #EBA8A8;
     text-align: center;
 }
 
 #contact h2, #contact h3 {
-    margin-bottom: 7.5%;
+    margin-bottom: 5%;
 }
 
 .links {
-    font-size: 400%;
+    font-size: 500%;
 }
 
 .links a {
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    nav li {
+        display: none;
+    }
+}
+/*Media queries for smaller screens*/
+
 @media screen and (min-width:576px) {
     
 }
