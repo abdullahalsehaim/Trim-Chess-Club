@@ -31,13 +31,18 @@ header {
 }
 
 nav {
-    display: flex;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    top: 5%;
 
 }
 
 nav ul {
     display: flex;
-    margin-left: 65%;
     list-style: none;
     text-decoration: none;
 }
@@ -59,6 +64,8 @@ nav li {
 
 .nav-toggle-label {
     font-size: 2rem;
+    position: absolute;
+    right: 2.5%;
 }
 
 a:link, a:visited, a:hover, a:active { 
@@ -139,6 +146,7 @@ a:link, a:visited, a:hover, a:active {
     list-style: none;
     width: 100%;
     font-family: "Kumbh Sans", sans-serif;
+    text-align: center;
 }
 
 .leaderboard ul {
@@ -173,7 +181,7 @@ a:link, a:visited, a:hover, a:active {
     font-family: "Kumbh Sans", sans-serif;
 }
 
-label {
+#join label {
     font-size: 150%;
     font-family: "Koulen", sans-serif;
     margin-left: 2.5%;
@@ -208,17 +216,38 @@ label {
     color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
     .nav-toggle-label {
         display: none;
     }
 
-    nav li {
-        display: none;
-    }
 }
 /*Media queries for smaller screens*/
 
-@media screen and (min-width:576px) {
+@media screen and (max-width:576px) {
     
+    .content {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .description, .accolades {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lists {
+        margin-right: 0
+    }
+
 }
