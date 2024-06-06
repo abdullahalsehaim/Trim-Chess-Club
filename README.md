@@ -50,8 +50,14 @@ I selected earthy, neutral colors
 #### Existing Features
 
 + Navigation Bar
+    + The navigation bar at the top of the page.
+    + The name of the website is at the top left of the page.
+    + The navigation links of About, Join and Contact are on the right hand side of the screen.
+    + When the screen size becomes smaller the navigation links become a menu navigation tool that saves space.
 
 + Home
+
+
 
 + Join
 
