@@ -27,7 +27,7 @@ p {
 }
 /*Styles for the header and navigation portion of the page*/
 header {
-    background: #D9D9D9;
+    background: #5F6758;
 }
 
 nav {
@@ -224,6 +224,8 @@ a:link, a:visited, a:hover, a:active {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        left: 60%;
+        background: #D9D9D9;
     }
 
     .nav-toggle-label {
@@ -241,13 +243,13 @@ a:link, a:visited, a:hover, a:active {
         text-align: center;
     }
     
-    .description, .accolades {
+    .description, .accolades, .about-club, .lists {
         width: 100%;
         text-align: center;
+        margin: 0;
     }
 
     .lists {
         margin-right: 0
     }
-
 }
