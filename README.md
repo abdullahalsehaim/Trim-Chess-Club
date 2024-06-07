@@ -4,6 +4,8 @@ This website was created to establish an online presence for a chess club locate
 
 Included on this page is an introduction to the club, some of the accolades the club has achieved, a current ranking of the top members, a form to join the club and a contact section.
 
+A live link of the deployed website can be found [here](https://abdullahalsehaim.github.io/Trim-Chess-Club/)
+
 ![Screenshot of the website on a range of devices](assets/images/all_devices_mockup.png)
 
 ### User Stories
@@ -143,7 +145,9 @@ Sections on the website:
 
 ![Screenshot of CSS Validator returning with no errors found](assets/images/css_validator.PNG)
 
-3. Lighthouse Dev Tools
+3. Lighthouse Dev Tools: Returned the following results
+
+![Screenshot of Google LightHouse Dev Tools](assets/images/lighthouse_report.PNG)
 
 #### Bugs
 

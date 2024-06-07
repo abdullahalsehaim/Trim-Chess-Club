@@ -80,6 +80,10 @@ a:link, a:visited, a:hover, a:active {
     flex-direction: column;
 }
 
+#home p {
+    color: white;
+}
+
 .hidden-heading {
     display: none;
 }
