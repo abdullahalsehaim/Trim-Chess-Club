@@ -162,6 +162,21 @@ Sections on the website:
 
 
 ### Deployment
++ The site was deployed using GitHub pages by the following steps.
+    1. When looking at the GitHub repositors, select the settings tab.
+
+    2. Under General, select the Pages section
+
+    3. On the Pages screen there will be a Build and Deployment section for Source, select to Deploy from a branch.
+
+    4. For Branch, select Main and then save.
+
+    5. When the website has been built you will be able to see it under your deployments section.
+
+    6. Any new commits to the repository will update on the deployment.
 
 
 ### Credits
+
++ Ideas were taken from Code Institute's Coffee House, Love Running and Coding Club Sample Project
++ The home image of a woman playing chess was taken from [iStock](https://www.istockphoto.com/photo/woman-playing-chess-gm1294703794-388619243)
