@@ -4,6 +4,8 @@ This website was created to establish an online presence for a chess club locate
 
 Included on this page is an introduction to the club, some of the accolades the club has achieved, a current ranking of the top members, a form to join the club and a contact section.
 
+![Screenshot of the website on a range of devices](assets/images/all_devices_mockup.png)
+
 ### User Stories
 
 When developing this website I had the objectives of spreading the awareness of the club's existence in the surrounding areas. Below are some of the points which may be applicable to users of this site:
@@ -20,36 +22,54 @@ When developing this website I had the objectives of spreading the awareness of 
 
 + As a user, I want to find this club on social media.
 
-#### Strategy
+### Strategy
+
 #### Scope
+
++ For website users (chess players, opposing clubs, governing bodies), I wanted to make it clear to them that there is a chess club established in this area and a basic overview of the club.
+
++ I wanted to make it easy for people to find out about the club.
+
 #### Structure
 
 Sections on the website:
 
 1. Home Page: A hero image, short introduction and menu for navigation.
+
+![Screenshot of the home section](assets/images/Home.PNG)
+
 2. About: A short description of the club, accolades the club has achieved, current ranking of the club's top members, current club schedule.
+
+![Screenshot of the about section](assets/images/about.PNG)
+
 3. Join: A form where players can enter their information to the club.
+
+![Screenshot of the join section](assets/images/join.PNG)
+
 4. Contact: A place where players can find the phone number, email address and social media links for the club.
+
+![Screenshot of the Contact section](assets/images/contact.PNG)
 
 
 #### Skeleton
-This wesite was designed to be simplistic and easy to read.
-The design flows from top to bottom and each section includes a different background.
 
-I used Figma to brain storm and come up with the websites layout. This software allowed me to develop each section seperately.
++ This wesite was designed to be simplistic and easy to read.
+
++ The design flows from top to bottom and each section includes a different background.
+
++ I used Figma to brain storm and come up with the websites layout. This software allowed me to develop each section seperately.
 
 ![Screenshot of website brain storm using Figma software](assets/images/figma.PNG)
 
 #### Surface
 
-+ I selected earthy, neutral colors as backgrounds.
++ I selected earthy, neutral colors as backgrounds. These colors represent the historic nature of the game of chess and the town of Trim.
 
-+ As the hero image I selected a high quality image of a chess player makig a move.
++ As the hero image I selected a high quality image of a chess player making a move.
 
 + For the list bullet markers I used chess icons from Font Awesome.
 
     + For the rankings I used chess pieces in descending order of power, eg King, Queen, Rook, Knight, Bishop.
-    ![King chess piece icon](assets/images/chess-king-solid.svg)
 
     + For the accolades section I used the pawn icon.
 
@@ -57,8 +77,11 @@ I used Figma to brain storm and come up with the websites layout. This software 
 
 
 #### Technologies
+
 1. HTML - To create the structure of the website
+
 2. CSS - Add styles and effects to the existing struture
+
 3. Figma - For brainstorming and seperating sections
 
 ### Features
@@ -96,7 +119,46 @@ I used Figma to brain storm and come up with the websites layout. This software 
 
 ![Screenshot of the Contact section](assets/images/contact.PNG)
 
+#### Potential Features
+
 ### Testing
+
+#### Manual Testing
+
++ I tested the website on different browsers
+
++ I tested the website on my mobile phone
+
++ I confirmed the links on the website direct to which sections they represent.
+
++ I confirmed the submit button brings users to the Code Institute success page.
+
+#### Validator Testing
+
+1. HTML W3C Validator: Returned with no errors
+
+![Screenshot of HTML Validator returning with no errors found](assets/images/html_validator.PNG)
+
+2. CSS W3C Validator: Returned with no errors
+
+![Screenshot of CSS Validator returning with no errors found](assets/images/css_validator.PNG)
+
+3. Lighthouse Dev Tools
+
+#### Bugs
+
+##### Solved Bugs
+
++ When I first attempted to validate my HTML code I got errors as I was using `<br>` element to add more space between list items in the about section.
+
++ Doing this returned an error as styles should be used to create this space and `<br>` should be reserved only for text.
+
++ I removed the `<br>` elements and instead used `margin` to create the desired space.
+
+##### Unsolved Bugs 
+
++ No unsolved bugs remaining.
+
 
 
 ### Deployment

@@ -80,6 +80,9 @@ a:link, a:visited, a:hover, a:active {
     flex-direction: column;
 }
 
+.hidden-heading {
+    display: none;
+}
 .image {
     margin: 35px;
     margin-top: 10%;
@@ -149,6 +152,10 @@ a:link, a:visited, a:hover, a:active {
     text-align: center;
 }
 
+.leaderboard li, .accolades li, .schedule li {
+    margin: 10%;
+}
+
 .leaderboard ul {
     background: #696969;
 }
@@ -157,7 +164,7 @@ a:link, a:visited, a:hover, a:active {
     background: white;
 }
 
-.leaderboard li, {
+.leaderboard li {
     margin: 5px;
     font-size: 150%;
 }
@@ -215,6 +222,8 @@ a:link, a:visited, a:hover, a:active {
 .links a {
     color: black;
 }
+
+/* Media query styles for larger screens */
 
 @media screen and (min-width: 768px) {
 
