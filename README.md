@@ -10,7 +10,10 @@ When developing this website I had the objectives of spreading the awareness of 
 
 + As another chess club/ governing body, I want to see other chess clubs in the country and challenge them to friendly matches/ tournaments.
 
-+
++ As a competitor I want to see the level of the top players at this club.
+
++ As a player I want to see the times the club plays the different game types at.
+
 + As a user, I want to be able to sign up to a specific session. 
 
 + As a user, I want a way to contact the club.
@@ -35,9 +38,22 @@ The design flows from top to bottom and each section includes a different backgr
 
 I used Figma to brain storm and come up with the websites layout. This software allowed me to develop each section seperately.
 
+![Screenshot of website brain storm using Figma software](assets/images/figma.PNG)
+
 #### Surface
 
-I selected earthy, neutral colors 
++ I selected earthy, neutral colors as backgrounds.
+
++ As the hero image I selected a high quality image of a chess player makig a move.
+
++ For the list bullet markers I used chess icons from Font Awesome.
+
+    + For the rankings I used chess pieces in descending order of power, eg King, Queen, Rook, Knight, Bishop.
+    ![King chess piece icon](assets/images/chess-king-solid.svg)
+
+    + For the accolades section I used the pawn icon.
+
+    + For the club timetables I used the chess board icons. 
 
 
 #### Technologies
@@ -55,13 +71,30 @@ I selected earthy, neutral colors
     + The navigation links of About, Join and Contact are on the right hand side of the screen.
     + When the screen size becomes smaller the navigation links become a menu navigation tool that saves space.
 
-+ Home
+    + Navigation bar on larger screen
+    ![Screenshot of the navigation bar on larger screens](assets/images/nav_bar_big.PNG)
 
+    + Navigation bar on smaller screen
+    ![Screenshot of the navigation bar on a smaller screen](assets/images/nav_bar_small.PNG)
+
++ Home
+    + The home section features a hero image of a player making a move in a chess game.
+    + This section also features a short description relating to the club.
+
+![Screenshot of the home section](assets/images/Home.PNG)
 
 
 + Join
+    + The join section has a form which allows players to input their name, email, preffered game type and current level.
+    + Players can submit this information to the club 
+
+![Screenshot of the join section](assets/images/join.PNG)
 
 + Contact
+    + Includes phone number and email information
+    + Has functioning links to X, Meta and Instagram.
+
+![Screenshot of the Contact section](assets/images/contact.PNG)
 
 ### Testing
 
